@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Canvas OpenCV</title>
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="img_in">
+            <img id="img" src="img/005.png" alt="">
+        </div>
+
+        <div class="img_out">
+            <canvas id="canvas1"></canvas>
+        </div>
+
+        <div class="img_out">
+            <canvas id="canvas2"></canvas>
+        </div>
+
+        <div class="img_out">
+            <canvas id="canvas3"></canvas>
+        </div>
+
+        <!-- <div class="img_out">
+            <canvas id="canvas4"></canvas>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+    <script async src="opencv.js" onload="onOpenCvReady()" type="text/javascript"></script>
+</body>
+
+</html>
